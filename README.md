@@ -1,5 +1,5 @@
 # StepTrackerAndroid
-Step Tracking using Android Accelerometer for Mingraine Prediction
+Step Tracking using Android Accelerometer for Migraine Prediction
 
 ## Overview
 My step tracker app uses the Android accelerometer signal to detect when user takes a step using a basic peak detection algorithm. It comprises of two views. The main view [see Fig 1] that shows the user the progress on how many steps they’ve taken based on a pre-set goal of 500 steps. The second view is the debug view [see Fig 2] which shows the number of steps calculated by my algorithm, the number of steps by Android’s step counter, a plot of the raw magnitude of the accelerator values and finally, the smoothed net magnitude of the accelerator signal used for calculating the number of steps.
